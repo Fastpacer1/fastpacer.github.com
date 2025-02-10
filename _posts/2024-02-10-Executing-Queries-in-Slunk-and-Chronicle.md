@@ -17,11 +17,11 @@ Tasked with this scenario, I uploaded the provided log data into Splunk Cloud fo
 
 > I ran index="main" to confirm that the relevant data was ingested into the default index and is accessible for analysis. Additionally, I set the date range to "All time" to ensure all events, regardless of their timestamp, are included in the search:
 
-![Splunk1](/assets/images/Splunk1.jpg)
+"assets/images/Splunk1.png"
 
 > I examined the fields created by Splunk indexes data. These fields become a part of the searchable index event data:
 
-![Splunk2](/assets/images/Splunk2.jpg)
+"assets/images/Splunk2.jpg"
 
 The following fields are observed:
 
