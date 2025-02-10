@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Adebiyi Emmanuel Adehinmoye"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "assets/images/Resume Photo.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     #- label: "Website"
