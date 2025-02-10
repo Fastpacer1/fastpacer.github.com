@@ -17,7 +17,7 @@ Tasked with this scenario, I uploaded the provided log data into Splunk Cloud fo
 
 > I ran index="main" to confirm that the relevant data was ingested into the default index and is accessible for analysis. Additionally, I set the date range to "All time" to ensure all events, regardless of their timestamp, are included in the search:
 
-![Splunk1](https://github.com/Fastpacer1/fastpacer.github.com/blob/d651e9644f44799302e7696673b9629abe15f48a/assets/images/Splunk1.png)
+![Splunk1](assets/images/Splunk1.jpg)
 
 > I examined the fields created by Splunk indexes data. These fields become a part of the searchable index event data:
 
