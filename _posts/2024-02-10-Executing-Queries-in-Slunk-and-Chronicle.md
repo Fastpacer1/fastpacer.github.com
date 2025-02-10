@@ -78,5 +78,6 @@ Following this, I checked the resolved IP address for POST requests, here we can
 ![Chronicle7](/assets/images/Chronicle8.png)
 
 **Reflection**
+
 In this Security Investigation, I used Splunk and Chronicle to investigate security threats in two different scenario
 
