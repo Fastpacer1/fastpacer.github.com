@@ -77,15 +77,12 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/fastpacer1"
+    - label: "Linkedin"
+      icon: "fab fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/adebiyi-adehinmoye-b8503b1b6/"
 
 defaults:
   # _posts
