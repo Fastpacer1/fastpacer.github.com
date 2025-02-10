@@ -21,7 +21,7 @@ Tasked with this scenario, I uploaded the provided log data into Splunk Cloud fo
 
 > I examined the fields created by Splunk indexes data. These fields become a part of the searchable index event data:
 
-"assets/images/Splunk2.jpg"
+![Splunk2](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Splunk2.png)
 
 The following fields are observed:
 
@@ -33,7 +33,7 @@ I proceeded to use a query to investigate any failed SSH logins for the root acc
 
 This query retrieves all events containing the word "fail" for the root user in the main index, specifically for events under the mailsv network host, where SSH logins are processed:
 
-![Splunk3](/assets/images/Splunk3.png)
+![Splunk2](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Splunk3.png)
 
 ## Chronicle
 
@@ -43,11 +43,11 @@ You are a security analyst at a financial services company. You receive an alert
 
 Given this scenario, I searched for the domain used in the phishing email:
 
-![Chronicle1](/assets/images/Chronicle 1.png)
+![Chronicle1](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle1.png)
 
 I proceeded to evaluate the search results in Chronicle for the identified domain: 
 
-![Chronicle2](/assets/images/Chronicle2.png)
+![Chronicle2](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle2.png)
 
 - VT Context: This Section provides the VirusTotal information that is available for the domain.
 - WHOIS: This section summarizes information about the domain using WHOIS, a free public directory that provides details about registered domain names, including the domain owner’s name and contact information.
@@ -59,23 +59,23 @@ I proceeded to evaluate the search results in Chronicle for the identified domai
 
 I clicked on VT CONTEXT to evaluate the available VirusTotal information about this domain. 10 security vendors flagged the domain as malicious:
 
-![Chronicle3](/assets/images/Chronicle3.png)
+![Chronicle3](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle3.png)
 
 I then proceeded to investigate the top level domain by performing a new search:
 
-![Chronicle4](/assets/images/Chronicle4.png)
+![Chronicle4](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle4.png)
 
 The VirusTotal for the top domain also returned 5 vendors marking the domain as malicious: 
 
-![Chronicle5](/assets/images/Chronicle5.png)
+![Chronicle5](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle5.png)
 
 Using the TIMELINE tab, I identified the POST request, indicating that data was sent to the malicious domain. This suggests a potential successful phishing attempt:
 
-![Chronicle6](/assets/images/Chronicle6.png)
+![Chronicle6](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle6.png)
 
 Following this, I checked the resolved IP address for POST requests, here we can see three different employees sent POST requests suggesting there was a successful phishing attempt:
 
-![Chronicle7](/assets/images/Chronicle8.png)
+![Chronicle7](https://fastpacer1.github.io/fastpacer.github.com/assets/images/Chronicle7.png)
 
 **Reflection**
 
