@@ -43,7 +43,7 @@ You are a security analyst at a financial services company. You receive an alert
 
 Given this scenario, I searched for the domain used in the phishing email:
 
-![Chronicle1](/assets/images/Chronicle1.png)
+![Chronicle1](assets/images/Chronicle 1.png)
 
 I proceeded to evaluate the search results in Chronicle for the identified domain: 
 
