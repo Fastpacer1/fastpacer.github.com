@@ -6,20 +6,14 @@ categories:
 tags:
   - Project
 ---
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vTQDrVgynj54OfnReTDReTHbWWyfh3nbEvdlyk5ue0VIC4XnaGSSwCkflBqLcjnMPyIqjR8W-4N6tKh/pub?embedded=true"></iframe> 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Executing Queries with Splunk and Chronicle
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+- Splunk
 
-Jekyll also offers powerful support for code snippets:
+You are a security analyst working at the e-commerce store Buttercup Games. You've been tasked with identifying whether there are any possible security issues with the mail server. To do so, you must explore any failed SSH logins for the root account. 
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+Tasked with this scenario, I uploaded the provided log data into Splunk Cloud for analysis:
+- I ran index="main" to confirm that the relevant data was ingested into the default index and is accessible for analysis. Additionally, I set the date range to "All time" to ensure all events, regardless of their timestamp, are included in the search:
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
