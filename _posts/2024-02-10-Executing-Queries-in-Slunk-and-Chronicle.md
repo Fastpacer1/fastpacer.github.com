@@ -32,3 +32,13 @@ The following fields are observed:
 I proceeded to use a query to investigate any failed SSH logins for the root account on the mail server: index = “main” host = “mailsv” fail* root
 
 This query retrieves all events containing the word "fail" for the root user in the main index, specifically for events under the mailsv network host, where SSH logins are processed:
+
+![Splunk3](assets/images/Splunk3.png)
+
+## Chronicle
+
+**Scenario:**
+
+You are a security analyst at a financial services company. You receive an alert that an employee received a phishing email in their inbox. You review the alert and identify a suspicious domain name contained in the email's body: signin.office365x24.com. You need to determine whether any other employees have received phishing emails containing this domain and whether they have visited the domain. You will use Chronicle to investigate this domain.
+
+Given this scenario, I searched for the domain used in the phishing email:
