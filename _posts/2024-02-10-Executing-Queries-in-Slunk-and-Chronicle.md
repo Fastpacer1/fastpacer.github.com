@@ -33,7 +33,7 @@ I proceeded to use a query to investigate any failed SSH logins for the root acc
 
 This query retrieves all events containing the word "fail" for the root user in the main index, specifically for events under the mailsv network host, where SSH logins are processed:
 
-![Splunk3](assets/images/Splunk3.png)
+![Splunk3](/assets/images/Splunk3.png)
 
 ## Chronicle
 
