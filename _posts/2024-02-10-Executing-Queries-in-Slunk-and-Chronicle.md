@@ -25,9 +25,9 @@ Tasked with this scenario, I uploaded the provided log data into Splunk Cloud fo
 
 The following fields are observed:
 
-host: The host field indicates the name of the network host where the event originated.
-source: The source field specifies the file name where the event originated.
-sourcetype: The sourcetype field determines how the data is formatted.
+- host: The host field indicates the name of the network host where the event originated.
+- source: The source field specifies the file name where the event originated.
+- sourcetype: The sourcetype field determines how the data is formatted.
 
 I proceeded to use a query to investigate any failed SSH logins for the root account on the mail server: index = “main” host = “mailsv” fail* root
 
