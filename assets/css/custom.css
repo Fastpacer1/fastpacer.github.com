@@ -1,3 +1,4 @@
 .page {
-    max-width: 1200px; /* Adjust to fit your preference */
+    max-width: 1200px; /* Adjust the width */
+    margin: 0 auto; /* Center the page */
 }
